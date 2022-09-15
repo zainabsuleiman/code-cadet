@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/code-cadet/static/css/main.a10b44ad.css",
-    "main.js": "/code-cadet/static/js/main.039c466b.js",
+    "main.js": "/code-cadet/static/js/main.e3bd2f87.js",
     "static/media/bgImage.png": "/code-cadet/static/media/bgImage.070f63c5c8db49863ac3.png",
     "index.html": "/code-cadet/index.html",
     "main.a10b44ad.css.map": "/code-cadet/static/css/main.a10b44ad.css.map",
-    "main.039c466b.js.map": "/code-cadet/static/js/main.039c466b.js.map"
+    "main.e3bd2f87.js.map": "/code-cadet/static/js/main.e3bd2f87.js.map"
   },
   "entrypoints": [
     "static/css/main.a10b44ad.css",
-    "static/js/main.039c466b.js"
+    "static/js/main.e3bd2f87.js"
   ]
 }

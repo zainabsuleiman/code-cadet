@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/code-cadet/static/css/main.a10b44ad.css",
-    "main.js": "/code-cadet/static/js/main.e3bd2f87.js",
+    "main.css": "/code-cadet/static/css/main.8be2bb70.css",
+    "main.js": "/code-cadet/static/js/main.9bcc7688.js",
+    "static/media/bglanding.png": "/code-cadet/static/media/bglanding.bc344cfb66eb26ce8970.png",
     "static/media/bgImage.png": "/code-cadet/static/media/bgImage.070f63c5c8db49863ac3.png",
+    "static/media/landing1.png": "/code-cadet/static/media/landing1.cbeff7d895f8608fc58f.png",
     "index.html": "/code-cadet/index.html",
-    "main.a10b44ad.css.map": "/code-cadet/static/css/main.a10b44ad.css.map",
-    "main.e3bd2f87.js.map": "/code-cadet/static/js/main.e3bd2f87.js.map"
+    "main.8be2bb70.css.map": "/code-cadet/static/css/main.8be2bb70.css.map",
+    "main.9bcc7688.js.map": "/code-cadet/static/js/main.9bcc7688.js.map"
   },
   "entrypoints": [
-    "static/css/main.a10b44ad.css",
-    "static/js/main.e3bd2f87.js"
+    "static/css/main.8be2bb70.css",
+    "static/js/main.9bcc7688.js"
   ]
 }

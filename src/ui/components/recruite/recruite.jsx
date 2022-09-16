@@ -8,7 +8,7 @@ const Recruite = () => {
     <div className='bg-bgcolor1 flex flex-col gap-4 font-nunito w-3/4 p-5 rounded-lg'>
         <div className='flex flex-col items-center gap-y-1 text-xs text-tertiary '>
         <h1 className='text-base text-[#292323] font-bold'>Recruite with Us</h1>
-        <Link to='login'><button className='py-2 rounded border w-20 hover:bg-second hover:text-bgcolor1'>Login In</button></Link>
+        <Link to='/login'><button className='py-2 rounded border w-20 hover:bg-second hover:text-bgcolor1'>Login In</button></Link>
         <span >Or</span>
         <span >Request Talents</span>
         </div>

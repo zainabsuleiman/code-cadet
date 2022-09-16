@@ -1,6 +1,7 @@
 import React from "react";
 import { TiArrowUpThick } from 'react-icons/ti'
-import { AiOutlineLeft,AiOutlineRight } from 'react-icons/ai'
+
+
 
 const Navbar = () => {
   return (
@@ -12,15 +13,17 @@ const Navbar = () => {
         </span>
       </div>
       <ul className="flex text-text2 gap-6">
-        <li>Training</li>
-        <li>Talents</li>
-        <li>Test</li>
-        <li>for Business</li>
+        <li className="hover:bg-second py-1 px-2 rounded">Training</li>
+        <li className="hover:bg-second py-1 px-2 rounded">Talents</li>
+        <li className="hover:bg-second py-1 px-2 rounded">Test</li>
+        <li className="hover:bg-second py-1 px-2 rounded">for Business</li>
+        
       </ul>
-      <button className="text-center text-bgcolor1 bg-second px-2 py-1 rounded ">Get started</button>
+      <button className="text-center text-bgcolor1 bg-second px-2 py-1 rounded hover:bg-[#e48934]">Get started</button>
+     
     </nav>
   );
 };
-        <li>Talents</li>
+        
 
 export default Navbar;

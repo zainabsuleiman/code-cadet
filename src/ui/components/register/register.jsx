@@ -1,5 +1,6 @@
 import React from 'react'
 import google from '../../resources/googlelogo.png'
+import { Link } from 'react-router-dom'
 function Register() {
   return (
     <div className='flex flex-col gap-y-5 bg-bgcolor1 px-10 py-5 rounded-lg font-nunito w-3/4 h-3/4'>
@@ -34,7 +35,7 @@ function Register() {
             Create Account
         </button>
 
-        <p className=' flex gap-x-5'>Don't Have an account <span className='text-second font-bold underline'><a href="">Log In</a></span></p>
+        <p className=' flex gap-x-5'>Don't Have an account <span className='text-second font-bold underline'><Link to='/login'>Log In</Link></span></p>
     </div>
   )
 }

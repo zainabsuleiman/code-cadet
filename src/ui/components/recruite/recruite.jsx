@@ -1,13 +1,14 @@
 import React from 'react'
 import Talents from './talents';
 import Technology from './technology';
+import { Link } from 'react-router-dom'
 
 const Recruite = () => {
   return (
     <div className='bg-bgcolor1 flex flex-col gap-4 font-nunito w-3/4 p-5 rounded-lg'>
         <div className='flex flex-col items-center gap-y-1 text-xs text-tertiary '>
         <h1 className='text-base text-[#292323] font-bold'>Recruite with Us</h1>
-        <button className='py-2 rounded border w-20'>Login In</button>
+        <Link to='login'><button className='py-2 rounded border w-20 hover:bg-second hover:text-bgcolor1'>Login In</button></Link>
         <span >Or</span>
         <span >Request Talents</span>
         </div>

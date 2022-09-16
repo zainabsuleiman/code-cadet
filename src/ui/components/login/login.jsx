@@ -1,5 +1,6 @@
 import React from 'react'
 import google from '../../resources/googlelogo.png'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -35,11 +36,11 @@ const Login = () => {
                 <input type="checkbox" checked  className='checked:bg-primary'/>
                 <span className='text-text5 '>Remember Me</span>
             </div>
-            <span className='text-text6 font-bold'> <a href="">Forgort Password?</a></span>
+            <span className='text-text6 font-bold'> <Link to="/reset-pass">Forgort Password?</Link></span>
         </div>
         <button className='bg-second flex justify-center items-center py-2 rounded-lg border-solid text-text2 text-sm font-bold uppercase'>Log In</button>
 
-        <p className=' flex gap-x-5'>Don't have an account <span className='text-second font-bold underline uppercase'><a href="">Sign Up</a></span></p>
+        <p className=' flex gap-x-5'>Don't have an account <span className='text-second font-bold underline uppercase'><Link to='/create-account'>Sign Up </Link></span></p>
     </div>
   )
 }

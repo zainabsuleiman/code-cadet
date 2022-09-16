@@ -9,7 +9,7 @@ const ContentPage = (props) => {
           <BgImage />
         </div>
 
-        <div className="flex items-center justify-center w-1/2 h-auto"> {props.page}</div>
+        <div className="flex items-center  w-1/2 h-auto"> {props.page}</div>
       </div>
     </div>
   );

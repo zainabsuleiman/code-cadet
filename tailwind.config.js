@@ -21,11 +21,13 @@ module.exports = {
       text3: '#525252',
       text4: '#828282',
       text5: '#A1A1A1',
-      text6: '#525252'
+      text6: '#525252',
+      black:'#000000',
   
     },
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
     },
     extend: {},
     
